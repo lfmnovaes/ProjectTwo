@@ -9,8 +9,8 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <h1 id="title">Satisfaction survey</h1>
-    <p id="description">This is a survey to know how do you liked our services.</p>
+    <h1 id="title">Programmer survey</h1>
+    <p id="description">This is a survey to know a little bit more about you.</p>
     <div id="main">
       <form id="survey-form">
         <div id="inputs">
@@ -37,20 +37,18 @@
           <input type="radio" id="male" name="gender" value="male"><br>
           <label id="female-label">Female</label>
           <input type="radio" id="female" name="gender" value="female"><br>
-          <label id="language">Which languages you know?</label><br>
-          <input type="checkbox" id="lang1" name="lang1" value="C">C<br>
-          <input type="checkbox" id="lang1" name="lang1" value="C++">C++<br>
-          <input type="checkbox" id="lang1" name="lang1" value="JAVA">JAVA<br>
-          <input type="checkbox" id="lang1" name="lang1" value="PYTHON">PYTHON<br>
-          <textarea style=height:100px; class="form" placeholder="Add additional comments"></textarea><br>
 
-          
-
-
+          <label id="languages">Which languages do you know?</label><br>
+          <input type="checkbox" id="lang1" name="lang" value="C">C<br>
+          <input type="checkbox" id="lang2" name="lang" value="C++">C++<br>
+          <input type="checkbox" id="lang3" name="lang" value="JAVA">JAVA<br>
+          <input type="checkbox" id="lang4" name="lang" value="PYTHON">PYTHON<br>
         </div>
  
   
         <div id="end">
+          <label id="comments">Do you have something to say to us?</label>
+          <textarea style=height:100px; class="form" placeholder="Add anything here"></textarea><br>
           <input id="submit" type="submit" class="form">
         </div>
       </form>
