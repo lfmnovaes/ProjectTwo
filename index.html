@@ -9,8 +9,8 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <h1 id="title">Generic Survey Form</h1>
-    <p id="description">A survey is a research method used for collecting data from a predefined group of respondents to gain information and insights into various topics of interest.</p>
+    <h1 id="title">Satisfaction survey</h1>
+    <p id="description">This is a survey to know how do you liked our services.</p>
     <div id="main">
       <form id="survey-form">
         <div id="inputs">
@@ -19,8 +19,25 @@
 
           <label id="email-label">E-mail:</label><br>
           <input id="email" type="email" name="email" class="form" required placeholder="username@email.com"><br>
-          <label id="number-label">age</label><br>
-          <input id="number" type="number" name="number" class="form" min="5" max="45"required placeholder="enter your age"><br>
+
+          <label id="number-label">Age</label><br>
+          <input id="number" type="number" name="number" class="form" min="5" max="45" required placeholder="enter your age"><br>
+
+          <label id="dropdown-label">Which country do you live?</label><br>
+          <select id="dropdown" name="country" class="form">
+            <option value="Brazil">Brazil</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="China">China</option>
+            <option value="Russia">Russia</option>
+          </select><br>
+
+          <label id="gender-label">Gender</label><br>
+          <label id="male-label">Male</label>
+          <input type="radio" id="male" name="gender" value="male"><br>
+          <label id="female-label">Female</label>
+          <input type="radio" id="female" name="gender" value="female"><br>
+
         </div>
  
   

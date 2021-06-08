@@ -10,6 +10,7 @@ body {
 
 }
 
+
 #title {
   font-size: 60px;
   text-align: center;
@@ -25,6 +26,10 @@ body {
   background-color: #fff;
   padding: 2px;
   text-align: center;
+}
+
+#dropdown {
+  width: auto;
 }
 
 .form {
