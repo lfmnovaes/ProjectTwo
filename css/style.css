@@ -13,3 +13,13 @@ p {
 #description {
   color: red;
 }
+.form{
+ border:3px;
+
+}
+#survey-form{
+  width:70%;
+}
+#name{
+  padding: 12px;
+}
